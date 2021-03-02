@@ -29,7 +29,7 @@ Route::get('send-mail', function () {
         'body' => 'hai daa'
     ];
    
-    Mail::to('shanshanthu.1@gmail.com')->send(new \App\Mail\MyTestMail($details));
+    Mail::to('example@gmail.com')->send(new \App\Mail\MyTestMail($details));
    
     dd("Email is Sent.");
 });
