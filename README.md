@@ -1,3 +1,17 @@
+change .env
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=sender email
+MAIL_PASSWORD=mail password
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=email@gmail.com
+MAIL_FROM_NAME="${APP_NAME}"
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
